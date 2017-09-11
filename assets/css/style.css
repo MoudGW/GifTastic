@@ -1,0 +1,44 @@
+.buttons{
+	font-size: 25px;
+    margin: 4px;
+    background-color: #0074D9;
+    border: none;
+    padding: 5px;
+    color: white;
+}
+#left{
+	padding: 10px;
+    width: 70%;
+    display:inline-block;
+}
+#left img{
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+}
+.giphy{
+	float: left;
+	padding: 10px;
+	display: grid;
+    text-align: center;
+}
+#right{
+	display: grid;
+    width: 20%;
+    float: right;
+    margin-right: 80px;
+    margin-top: 35px;
+
+}
+#right button{
+	margin: 0px;
+}
+#right input{
+	font-size: 15px;
+    height: 25px;
+    margin: 10px 0px;
+
+}
+p{
+	font-family: 'EB Garamond', serif;
+}
