@@ -1,10 +1,11 @@
 .buttons{
-	font-size: 25px;
+    font-size: 25px;
     margin: 4px;
     background-color: #0074D9;
     border: none;
-    padding: 5px;
+    padding: 6px 6px;
     color: white;
+    border-radius: 5px;
 }
 #left{
 	padding: 10px;

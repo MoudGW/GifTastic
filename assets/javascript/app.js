@@ -1,5 +1,5 @@
     // declarate Globale variables  
-	var topics=['john snow', 'arya', 'Dog', 'little finger', 'dragons', 'Cat', 'hodor', 'stark', 'khalisi','king of north'];
+	var topics=['John snow', 'Arya', 'Dog', 'Little finger', 'Dragons', 'Cat', 'Hodor', 'Stark', 'khaleesi','King of north','Cersei'];
 	var selected;
 	var gifsrc=[];
 	var gifsrc_st=[];
@@ -24,9 +24,19 @@
 				$('#left').text('');
 				selected=$(this).text();
 				displaygiphy();
+				$(this).css("opacity","0.6");
 			}
 
 		});
+		// add hover effect on buttons to help the user to remember the buttons already clicked
+ 		$(".buttons").hover(function(){
+        $(this).css("background-color", "white");
+        $(this).css("color", "#0074D9");
+        }, function(){
+        $(this).css("background-color", "#0074D9");
+        $(this).css("color", "white");
+
+    });
 	});
 	// declarate function display buttons
 	function displaybuttons()
